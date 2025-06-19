@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+
+        <h2>Pesquisa de Satisfação</h2>
+
+        <form action="pagina.destino.html" method="POST">
+
+            <h3>Dados Pessoais:</h3>
+            <p>
+                <label for="nome">Nome Completo:</label>
+            </p>
+            <p>
+                <input type="text" placeholder="Seu nome completo" id="nome"/>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+            </p>
+            <p>
+                <input type="email" placeholder="Seu e-mail" id="email"/>
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+            </p>
+            <p>
+                <input type="number" placeholder="Seu telefone" id="telefone"/>
+            </p>
+            
+            <h3>Questionário:</h3>
+            <p>
+                <p>Você gostou do nosso bar?</p>
+                <input type="radio" id="1" name="Pergunta1" />
+                <label for="1">Sim</label>
+                <input type="radio" id="2" name="Pergunta1" />
+                <label for="2">Não</label>
+            </p>
+
+            <p>
+                <p>Você gostou das nossas bebidas?</p>
+                <input type="radio" id="3" name="Pergunta2" />
+                <label for="3">Sim</label>
+                <input type="radio" id="4" name="Pergunta2" />
+                <label for="4">Não</label>
+            </p>
+
+            <p>Qual o seu nível de satisfação com nosso atendimento?</p>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+            
+            <p>
+                <label for="termos">Você autoriza compartilhar sua resposta com terceiros?</label>
+                <input type="checkbox" id="termos"/>
+            </p>
+            <p>
+                <input type="submit" value="Enviar"/>
+            </p>
+
+        </form>
+    </body>
+</html>
